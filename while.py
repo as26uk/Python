@@ -1,11 +1,9 @@
-i = 1
-x = "_"
-while i < 2:
-    i = i + 1
-    x = x + "_"
+a = int(input("Enter number of stars: "))
+i = 0
+while i < a:
+    i += 1
+    print("*" * i, end="\r")
 
-my_fruit = ["Apple", "Banana", "Orange", "peach", "apricot"]
 
-for i in my_fruit:
-    print(i.upper())
-    print("-" * len(i))
+
+
