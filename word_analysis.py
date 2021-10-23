@@ -1,4 +1,4 @@
-def vowels(word):
+def word_analysis(word):
     number_of_vowels = 0
     number_of_cons = 0
     number_of_numbers = 0
@@ -26,4 +26,4 @@ def vowels(word):
 
 
 a = str(input("\n" + "\n" + "Enter a word: "))
-print(vowels(a))
+print(word_analysis(a))
